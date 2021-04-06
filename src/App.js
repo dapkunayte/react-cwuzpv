@@ -1,10 +1,13 @@
 import React from "react";
 import "./style.css";
-import cat from "./cat2.png";
+import cat from "./cat.svg"
+import frame from "./framge.svg"
+
 
 export default function App() {
   return (
-    <div>
+  <div>
+  <body>
     <html lang="ru"/>
     <head>
     <meta charset="utf-8"></meta>
@@ -31,7 +34,8 @@ export default function App() {
     <footer>
     <a target="_blank" href="https://icons8.ru/icons/set/cat-butt">Cat Butt icon</a> иконка от <a target="_blank" href="https://icons8.ru">Icons8</a>
     </footer>
-    </div>
+  </body>
+  </div>
   )
   
 
