@@ -1,9 +1,8 @@
 import React from "react";
 import "./style.css";
-import cat from "./cat.svg"
-//import frame from "./framge.png"
-import icon from "./cat-icon.png"
-
+import cat from "./cat2.png"
+import frame from "./frame.png"
+import icon from "./cat_icon.png"
 
 export default function App() {
   return (
@@ -14,7 +13,7 @@ export default function App() {
     <meta charset="utf-8"></meta>
     <title>Привет всем присутствующим</title>
     <link rel="stylesheet" href="style.css"/>
-    <link rel="shortcut icon" src="cat_icon.png"/>
+    <link rel="shortcut icon" src={icon}/>
     <meta name="viewport" content="width=device-width"/>
     </head>
 
@@ -28,7 +27,7 @@ export default function App() {
     </header>
 
         <div class="info">
-    <img class="back" src="/Frame.png"/>
+    <img class="back" src={frame}/>
     <a target="_blank" class="button" href="https://yandex.ru/images/search?from=tabbar&text=рыжие%20коты">БОЛЬШЕ</a>
     </div>
 
