@@ -1,4 +1,64 @@
-h1 {
-  font-family: Montserrat;
-  color:brown
+body 
+{
+background: #E6E6FA;
+}
+
+h1
+{
+color: #4B0082;
+font-family: Montserrat Black;
+text-align: center;
+font-size:82px;
+line-height: 64px;
+}
+
+.lists-elements
+{
+color:#F0E68C;
+}
+
+.container
+{
+text-align:right;
+}
+
+.imgpos
+{
+position:absolute;
+top:150px;
+left:650px;
+}
+
+.cat
+{
+font-family: Montserrat Medium, self-serif;
+color:#9370DB;
+padding-left:150px;
+font-size:64px;
+}
+
+
+.button
+{
+font-family: Montserrat Medium, self-serif;
+color:#FFFAFA;
+font-size:44px;
+position:relative;
+bottom:100px;
+right:85px;
+}
+
+.back
+{
+position:relative;
+bottom:90px;
+left:150px;
+width:250px;
+height:50px;
+}
+
+footer
+{
+position:relative;
+top:180px;
 }
