@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import cat from './cat2.png'
 
 export default function App() {
   return (
@@ -17,7 +18,7 @@ export default function App() {
       <div class="container">
         <h1>УЧИМСЯ ВЕРСТАТЬ САЙТЫ</h1>
         <div class="imgpos">
-        <img class="cat" src="imgs/cat2.png" width="510" height="510" alt="Кот"></img>
+        <img class="cat" src={cat} width="510" height="510" alt="Кот"></img>
         </div>
       </div>
     </header>
