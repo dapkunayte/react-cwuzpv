@@ -1,7 +1,8 @@
 import React from "react";
 import "./style.css";
 import cat from "./cat.svg"
-import frame from "./framge.svg"
+import frame from "./framge.png"
+import icon from "."
 
 
 export default function App() {
@@ -27,7 +28,7 @@ export default function App() {
     </header>
 
         <div class="info">
-    <img class="back" src="imgs/Frame.png"/>
+    <img class="back" src={frame}/>
     <a target="_blank" class="button" href="https://yandex.ru/images/search?from=tabbar&text=рыжие%20коты">БОЛЬШЕ</a>
     </div>
 
